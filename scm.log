@@ -32,3 +32,20 @@
 {"component":"ComponentWeb","level":"debug","message":"Adding fn route: /assertion/options -> bound loginRequest","timestamp":1536310990910}
 {"component":"ComponentWeb","level":"debug","message":"Adding fn route: /assertion/result -> bound loginResponse","timestamp":1536310990910}
 {"component":"ComponentDirector","level":"debug","message":"Started ComponentDirector.","timestamp":1536310990911}
+{"component":"ComponentManager","level":"debug","message":"initializing component: logger ...","timestamp":1536407028471}
+{"component":"ComponentManager","level":"debug","message":"initializing component: http ...","timestamp":1536407028471}
+{"component":"ComponentWeb","level":"debug","message":"Starting web server...","timestamp":1536407028471}
+{"component":"ComponentWeb","level":"debug","message":"Starting HTTP server on port 8888 ...","timestamp":1536407028487}
+{"component":"ComponentManager","level":"debug","message":"initializing component: cert-manager ...","timestamp":1536407028489}
+{"component":"ComponentManager","level":"debug","message":"initializing component: https ...","timestamp":1536407028489}
+{"component":"ComponentWeb","level":"debug","message":"Starting web server...","timestamp":1536407028489}
+{"component":"ComponentWeb","level":"debug","message":"Starting HTTPS server on port 8443 ...","timestamp":1536407028490}
+{"component":"ComponentManager","level":"debug","message":"initializing component: uds ...","timestamp":1536407028496}
+{"component":"UdsMongoComponent","level":"debug","message":"Starting UdsMongoComponent ...","timestamp":1536407028496}
+{"component":"ComponentManager","level":"debug","message":"initializing component: fido2 ...","timestamp":1536407028521}
+{"component":"Fido2Component","level":"debug","message":"Starting Fido2Component ...","timestamp":1536407028521}
+{"component":"ComponentWeb","level":"debug","message":"Adding fn route: /attestation/options -> bound registerRequest","timestamp":1536407028521}
+{"component":"ComponentWeb","level":"debug","message":"Adding fn route: /attestation/result -> bound registerResponse","timestamp":1536407028522}
+{"component":"ComponentWeb","level":"debug","message":"Adding fn route: /assertion/options -> bound loginRequest","timestamp":1536407028522}
+{"component":"ComponentWeb","level":"debug","message":"Adding fn route: /assertion/result -> bound loginResponse","timestamp":1536407028522}
+{"component":"ComponentDirector","level":"debug","message":"Started ComponentDirector.","timestamp":1536407028523}
